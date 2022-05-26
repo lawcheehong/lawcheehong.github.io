@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Week 3 Sample</title>
+    <style>
+        body {
+            background-color: bisque;
+            font-family: 'Lato', sans-serif;
+            /* If Lato not available, use sans-serif */
+            font-size: 3vw;
+            /* vw is the size unit, it changes based on your current screen size. The bigger screen the font will be bigger and vice versa. */
+        }
+
+        .titlebox {
+            height: 20vh;
+            /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
+            text-align: center;
+        }
+
+        .container {
+            /* Target those elements containing class (dot) called 'container' */
+            display: flex;
+            /* This is the magic to make the 2 div align horizontally */
+            height: 80vh;
+            /* 80% height of the full page */
+        }
+
+        .container .box {
+            /* All the .box under .container */
+            width: 50%;
+            /* Each column would takes up 50%, so equally sharing spaces left and right */
+
+            display: flex;
+            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+            align-items: center;
+            /* vertically center */
+        }
+
+        .box div {
+            /* All the div under .box */
+            width: 100%;
+        }
+
+        #box2 {
+            text-align: right;
+            background-image: url("images/unsplash.jpg");
+            background-size: cover;
+            background-position: center center;
+        }
+
+        h1 {
+            padding: 10px;
+            border: 8px black solid;
+        }
+    </style>
+    <!-- this is HTML Comment 
+         The 2 lines below is to install Google Fonts. 
+         For all font in your homeworks, use Lato (as above)
+        -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="titlebox">
+        <h1>My Title</h1>
+    </div>
+    <div class="container">
+        <div id="box1" class="box">
+            <img src="images/unsplash.jpg" />
+        </div>
+        <div id="box2" class="box">
+            <div>Box 2</div>
+        </div>
+    </div>
+</body>
+
+</html>
