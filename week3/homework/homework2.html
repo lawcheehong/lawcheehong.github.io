@@ -1,9 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Homework 2</title>
-    </head>
-    <body>
-        
-    </body>
+  <head>
+    <title>Homework 2</title>
+    <style>
+      body {
+        font-family: "Lato", sans-serif;
+        font-size: 3vw;
+      }
+
+      .titlebox {
+        width: max-content;
+        text-align: center;
+        border: 8px black solid;
+        border-top: none;
+        font-size: 75%;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+      }
+
+      .container {
+        display: flex;
+        height: fit-content;
+      }
+
+      .container .box {
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        align-items: center;
+      }
+
+      .box div {
+        width: 100%;
+      }
+
+      #box1 {
+        text-align: left;
+      }
+
+      #box2 {
+        text-align: center;
+      }
+
+      #box3 {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="titlebox">
+      <h1>CUSTOMER REVIEWS</h1>
+    </div>
+    <div class="container">
+      <div id="box1" class="box">
+        <img src="../homework/image/h21.png" alt="homework2.1.png"/>
+        <div>
+          <h6>Murielle Blake</h6>
+          <div>
+            <p>
+              Testimonials are short quotes from people who love your brand.
+              It's a great way to convince customers to try your services.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="box2" class="box">
+        <img src="../homework/image/h21.png" alt="homework2.1.png" />
+        <h6>Murielle Blake</h6>
+        <p>
+          Testimonials are short quotes from people who love your brand. It's a
+          great way to convince customers to try your services.
+        </p>
+      </div>
+      <div id="box3" class="box">
+        <img src="../homework/image/h21.png" alt="homework2.1.png" />
+        <h6>Murielle Blake</h6>
+        <p>
+          Testimonials are short quotes from people who love your brand. It's a
+          great way to convince customers to try your services.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
