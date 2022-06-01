@@ -2,8 +2,70 @@
 <html>
     <head>
         <title>Homework 3</title>
+        <style>
+            body {
+            font-family: 'Lato', sans-serif;
+            font-size: 3vw;
+        }
+
+        .border {
+            text-align: right;
+            align-items: center;
+            border: 8px black solid;
+            border-right: none;
+            margin-left: 10%;
+            padding-right: 10%;
+        }
+
+        .container {
+            display: flex;
+            height: 95vh;
+        }
+
+        .container .box {
+            width: 50%;
+            display: flex;
+            align-items: center;
+        }
+
+        .box div {
+            width: 100%;
+        }
+
+        #box2 {
+            text-align: right;
+        }
+
+        h1 {
+            font-size:  120%;
+        }
+
+        h3 {
+            margin-bottom: -20px;
+            font-size: 50%;
+        }
+
+        p {
+            font-size: 45%;
+        }
+        </style>
     </head>
     <body>
-        
+        <div class="container">
+            <div id="box1" class="box">
+                <img src="../homework/image/h31.png" alt="homework3.png" width="95%"/>
+            </div>
+            <div id="box2" class="box">
+                <div class="border">
+                    <h1>CONNECT WITH US</h1>
+                    <h3>Mailing Address</h3>
+                    <p>123 Anywhere St., Any City, State, Country 12345</p>
+                    <h3>Email Address</h3>
+                    <p>hello@reallygreatsite.com</p>
+                    <h3>Phone Number</h3>
+                    <p>(123) 456 7890</p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
