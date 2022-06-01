@@ -1,27 +1,79 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <title>Chee Hong Website</title>
-  </head>
+    <style>
+      body {
+        background-color: lightblue;
+        font-family: "Lato", sans-serif;
+        font-size: 3vw;
+      }
 
-  <body style="text-align: center">
-    <img src="week2/images/tommy.jpg" width="500" />
-    <p>NAME: LAW CHEE HONG</p>
-    <p>STUDENT ID: 2250164-BSE</p>
-    <p>EMAIL: lawcheehong0511@e.newera.edu.my</p>
-    <a href="https://lawcheehong.github.io/week2/index.html" target="_blank"
-      >Week 2</a
-    >
-    <br /><a
-      href="https://lawcheehong.github.io/week3/apple.html"
-      target="_blank"
-      >Apple</a
-    >
-    <br /><a
-      href="https://lawcheehong.github.io/week3/exercise2/"
-      target="_blank"
-      >Exercise 2</a
-    >
+      .titlebox {
+        text-align: center;
+        font-size: 20px;
+      }
+
+      .container {
+        display: flex;
+        height: fit-content;
+      }
+
+      .container .box1 {
+        width: 50%;
+        display: flexbox;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+        height: auto;
+      }
+      .container .box2 {
+        width: 50%;
+        display: flexbox;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+        height: auto;
+        background-color: grey;
+      }
+
+      .box div {
+        width: 100%;
+      }
+
+      p {
+        font-size: 20px;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="titlebox">
+      <h1>Hello!!! Welcome to My Page</h1>
+    </div>
+    <div class="container">
+      <div id="box1" class="box1">
+        <img src="image/profile.jpg" alt="LawCheeHongPicture" width="50%" />
+        <p>Law Chee Hong</p>
+        <p>
+          <a
+            href="mailto:lawcheehong0511@e.newera.edu.my"
+            target="_blank"
+            style="color: black"
+          />Send Email
+        </p>
+        <p><a href="tel:017-8413186" style="color: black" />Call Me</p>
+        <p>
+          <a
+            href="https://github.com/lawcheehong"
+            target="_blank"
+            style="color: black"
+          />Github
+        </p>
+      </div>
+      <div id="box2" class="box2">
+        <p>hello</p>
+      </div>
+    </div>
   </body>
 </html>
