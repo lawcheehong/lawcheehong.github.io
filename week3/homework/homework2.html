@@ -9,44 +9,45 @@
       }
 
       .titlebox {
-        width: max-content;
+        width: fit-content;
         text-align: center;
         border: 8px black solid;
         border-top: none;
-        font-size: 75%;
+        font-size: 60%;
         padding-left: 5%;
         padding-right: 5%;
         display: flex;
+        margin: auto;
       }
 
       .container {
+        padding-top: 10%;
         display: flex;
         height: fit-content;
       }
 
       .container .box {
-        width: 50%;
-        background-size: cover;
-        background-position: center;
-
-        display: flex;
         align-items: center;
+        text-align: center;
+        display: flexbox;
+        width: 33%;
+        padding-left: 5%;
+        padding-right: 5%;
       }
 
       .box div {
         width: 100%;
       }
 
-      #box1 {
-        text-align: left;
-      }
-
       #box2 {
         text-align: center;
       }
 
-      #box3 {
-        text-align: right;
+      img{
+        width: 75%;
+      }
+      p {
+        font-size: 50%;
       }
     </style>
   </head>
@@ -56,33 +57,29 @@
     </div>
     <div class="container">
       <div id="box1" class="box">
-        <img src="../homework/image/h21.png" alt="homework2.1.png"/>
-        <div>
-          <h6>Murielle Blake</h6>
-          <div>
+        <img src="../homework/image/h21.png" alt="homework2.1.png" />
+        <p style="font-weight: bold">Murielle Blake</p>
+        <p>
+          Testimonials are short quotes from people who love your brand. It's a
+          great way to convince customers to try your services.
+        </p>
+      </div>
+        <div id="box2" class="box">
+          <img src="../homework/image/h22.png" alt="homework2.2.png" />
+          <p style="font-weight: bold">Inna Tran</p>
+          <p>
+            Testimonials are short quotes from people who love your brand. It's a
+            great way to convince customers to try your services.
+          </p>
+        </div>
+          <div id="box3" class="box">
+            <img src="../homework/image/h23.png" alt="homework2.3.png" />
+            <p style="font-weight: bold">Clyde Meily</p>
             <p>
-              Testimonials are short quotes from people who love your brand.
-              It's a great way to convince customers to try your services.
+              Testimonials are short quotes from people who love your brand. It's a
+              great way to convince customers to try your services.
             </p>
           </div>
         </div>
-      </div>
-      <div id="box2" class="box">
-        <img src="../homework/image/h21.png" alt="homework2.1.png" />
-        <h6>Murielle Blake</h6>
-        <p>
-          Testimonials are short quotes from people who love your brand. It's a
-          great way to convince customers to try your services.
-        </p>
-      </div>
-      <div id="box3" class="box">
-        <img src="../homework/image/h21.png" alt="homework2.1.png" />
-        <h6>Murielle Blake</h6>
-        <p>
-          Testimonials are short quotes from people who love your brand. It's a
-          great way to convince customers to try your services.
-        </p>
-      </div>
-    </div>
   </body>
 </html>
