@@ -1,0 +1,37 @@
+#container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.header {
+  background-color: #FFFF00;
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+  background-image: url("../image/backgroud.jpg");
+  background-size: cover;
+}
+
+h1{
+  margin-top: -10px;
+}
+
+/* The navbar container */
+.topnav {
+  background-color: black;
+}
+
+/* Navbar links */
+.topnav a {
+  color: #FFC0CB;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #FF0000;
+  color: #FFC0CB;
+  text-decoration: underline;
+}s
