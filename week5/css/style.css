@@ -1,6 +1,7 @@
 #container {
   max-width: 1024px;
   margin: auto;
+  background-color: #FFC0CB;
 }
 
 .header {
@@ -18,7 +19,10 @@ h1{
 
 /* The navbar container */
 .topnav {
+  display: flex;
   background-color: black;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 /* Navbar links */
@@ -34,4 +38,44 @@ h1{
   background-color: #FF0000;
   color: #FFC0CB;
   text-decoration: underline;
-}s
+}
+
+/* Row */
+.row {
+  display: flex;
+}
+
+/* Column */
+.column {
+  width: 25%;
+}
+
+#column2{
+  width: 50%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 480px) {
+  .column {
+	width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 480px){
+  .column {
+	width: 50%;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+}
+
+footer {
+  display: block;
+  background-color: #F1F1F1;
+}
