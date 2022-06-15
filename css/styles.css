@@ -11422,7 +11422,7 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 100vh ;
   }
 }
 @media (min-width: 992px) {
@@ -11432,4 +11432,12 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+img{
+  width: 350px;
+  height: 250px;
+  border: #FAD61D 5px solid;
+  padding: 3px;
+  margin-top: 5px;
 }
