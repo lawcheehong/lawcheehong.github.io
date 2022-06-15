@@ -1,124 +1,124 @@
 #container {
-    margin: auto;
-    background-color: #FFC0CB;
-  }
+  margin: auto;
+  background-color: #ffc0cb;
+}
 
-  .header {
-    display: flex;
-    justify-content: space-between;
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    background-color: #AF9C91;
-    min-width: 280px;
+  display: flex;
+  justify-content: center;
+  background-color: #af9c91;
+  min-width: 280px;
 }
 
 .phoneno {
-    text-align: center;
-    min-width: 200px;
+  text-align: center;
+  min-width: 200px;
 }
 
-.phoneno h1{
-    background-color: #306a44;
+.phoneno h1 {
+  background-color: #306a44;
 }
 
-.menu{
-    background-color: #b4c5f2;
-    text-align: center;
-    margin-top: -12px;
-    margin-bottom: -12px;
+.menu {
+  background-color: #b4c5f2;
+  text-align: center;
+  margin-top: -12px;
+  margin-bottom: -12px;
 }
 
-.slide{
-    background-color: #b1bc55;
-    min-height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.slide {
+  background-color: #b1bc55;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.featcon{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 180px;
+.featcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 180px;
 }
 
-.feat{
-    width: 24%;
-    min-height: 130px;
-    background-color: #fb6c49;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.feat {
+  width: 24%;
+  min-height: 130px;
+  background-color: #fb6c49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.textside{
-    display: flex;
-    justify-content: space-between;
+.textside {
+  display: flex;
+  justify-content: space-between;
 }
 
-.textcon{
-    width: 69%;
-    min-height: 300px;
-    background-color: #aba499;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.textcon {
+  width: 69%;
+  min-height: 300px;
+  background-color: #aba499;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sidebar{
-    min-width: 29%;
-    min-height: 300px;
-    background-color: #03d42d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sidebar {
+  min-width: 29%;
+  min-height: 300px;
+  background-color: #03d42d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-footer{
-    background-color: #7e6fa2;
-    text-align: center;
+footer {
+  background-color: #7e6fa2;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
-    .header {
-        flex-wrap: wrap; 
-    }
+  .header {
+    flex-wrap: wrap;
+  }
 
-    .logo {
-        width: 100%;
-        margin-bottom: -10px;
-    }
+  .logo {
+    width: 100%;
+    margin-bottom: -10px;
+  }
 
-    .phoneno {
-        width: 100%;
-        margin-bottom: -20px;
-    }
+  .phoneno {
+    width: 100%;
+    margin-bottom: -20px;
+  }
 
-    .featcon{
-        flex-wrap: wrap;
-    }
+  .featcon {
+    flex-wrap: wrap;
+  }
 
-    .feat{
-        width: 100%;
-        margin: 5px;
-    }
+  .feat {
+    width: 100%;
+    margin: 5px;
+  }
 
-    .textside{
-        flex-wrap: wrap;
-        margin-bottom: 10px;
-    }
+  .textside {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
 
-    .textcon{
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    
-    .sidebar{
-        width: 100%;
-    }
+  .textcon {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
 }
