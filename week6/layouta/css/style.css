@@ -1,0 +1,47 @@
+.logo {
+  grid-area: logo;
+}
+.menu {
+  grid-area: menu;
+}
+.img {
+  grid-area: img;
+}
+.feat1 {
+  grid-area: feat1;
+}
+.feat2 {
+  grid-area: feat2;
+}
+.feat3 {
+  grid-area: feat3;
+}
+.side {
+  grid-area: side;
+}
+.text {
+  grid-area: text;
+}
+.footer {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "logo logo menu menu menu menu"
+    "img img img img img img"
+    "feat1 feat1 feat2 feat2 feat3 feat3"
+    "side side text text text text"
+    "footer footer footer footer footer footer";
+  gap: 10px;
+  padding: 10px;
+  background-color: #2196F3;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
