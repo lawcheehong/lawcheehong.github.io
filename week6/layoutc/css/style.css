@@ -1,0 +1,68 @@
+.logo {
+  grid-area: logo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+.pho {
+  grid-area: pho;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+}
+.menu {
+  grid-area: menu;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+}
+.img {
+  grid-area: img;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+.text {
+  grid-area: text;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+.side {
+  grid-area: side;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+.footer {
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "logo space space pho"
+    "logo spcae menu menu"
+    "img img img img"
+    "text text text side" 
+    "footer footer footer footer";
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
