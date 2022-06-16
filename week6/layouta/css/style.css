@@ -1,29 +1,62 @@
 .logo {
   grid-area: logo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .menu {
   grid-area: menu;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img {
   grid-area: img;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .feat1 {
   grid-area: feat1;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .feat2 {
   grid-area: feat2;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .feat3 {
   grid-area: feat3;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .side {
   grid-area: side;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .text {
   grid-area: text;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer {
   grid-area: footer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-container {
