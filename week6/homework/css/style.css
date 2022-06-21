@@ -134,6 +134,10 @@ body {
   width: 216px;
 }
 
+.tb1 a:hover {
+  opacity: 0.5;
+}
+
 #sm {
   font-weight: 100;
   font-size: 50px;
@@ -157,21 +161,84 @@ body {
   align-content: center;
 }
 
+/* Mouse Container */
 .mouse {
-    text-align: center;
-    border: white solid 3px;
-    padding: 10px 9px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    bottom: 15%;
+  text-align: center;
+  border: white solid 3px;
+  padding: 10px 9px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
 }
 
 .mouse img {
-    width: 50%;
+  width: 50%;
+}
+
+/* Second Page */
+.secondpage {
+  height: 95vh;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* Left Second Container */
+.lscon {
+  width: 75vw;
+  height: 75vh;
+  padding-left: 75px;
+}
+
+.lscon img {
+  width: 100%;
+  margin-top: 100px;
+}
+
+/* Right Second Container */
+.rscon {
+  width: 75vw;
+  height: 75vh;
+  padding: 200px 200px 0px 100px;
+}
+
+.rscon p {
+  font-size: 25px;
+}
+
+#rsp1 {
+  color: blue;
+}
+
+#rsh1 {
+  margin-top: -15px;
+  margin-bottom: -8px;
+  font-size: 80px;
+}
+
+.btn2 {
+  background-image: url(../images/Rectangle\ 8@2x\ -\ Copy.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.rscon a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 216px;
+}
+
+.rscon a:hover {
+  opacity: 0.5;
 }
