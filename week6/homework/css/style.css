@@ -1,10 +1,14 @@
 body {
   font-family: sans-serif;
-  background-image: url(../images/Bg\ Shape@2x.png);
+  background-image: url(../images/Bg\ Shape@2x.png),
+    url(../images/Bg\ Shape\ footer\ 2@2x.png),
+    url(../images/Bg\ Shape\ footer\ 1@2x.png);
   background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 50%;
+  background-position: top right, left -280px bottom -1085px,
+    left -1280px bottom -1550px;
+  background-size: 50%, 2350px, 3150px;
   color: #454a56;
+  margin: auto;
 }
 
 /* First Page */
@@ -70,11 +74,14 @@ body {
   display: flex;
   height: 85vh;
   padding-left: 100px;
+  position: relative;
 }
 
 /* The sidebar container */
 .sidebar {
   height: 50vh;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   padding-top: 350px;
   text-decoration: none;
@@ -151,10 +158,9 @@ body {
 }
 
 .fpic {
-  width: 100vh;
   height: 70vh;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-content: center;
 }
 
@@ -170,7 +176,7 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 50%;
   position: absolute;
-  left: 50%;
+  left: 45%;
   bottom: 15%;
 }
 
@@ -180,7 +186,7 @@ body {
 
 /* Second Page */
 .secondpage {
-  height: 95vh;
+  height: 100vh;
   display: flex;
   margin-top: 50px;
 }
@@ -188,7 +194,6 @@ body {
 /* Left Second Container */
 .lscon {
   width: 40vw;
-  height: 75vh;
   padding-left: 75px;
 }
 
@@ -201,7 +206,7 @@ body {
 .rscon {
   width: 40vw;
   height: 75vh;
-  padding: 180px 200px 0px 100px;
+  padding: 180px 200px 100px 100px;
 }
 
 .rscon p {
@@ -247,14 +252,13 @@ body {
 
 /* Top Services Page*/
 .tserhead {
-  width: 90%;
   height: 10vh;
   padding-left: 150px;
 }
 
 #tserp1 {
   color: blue;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 #tserh1 {
@@ -264,7 +268,6 @@ body {
 
 /* Services Page Body */
 .serbody {
-  padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 200px;
   margin-top: 75px;
@@ -279,7 +282,7 @@ body {
   background-color: #fff;
   margin: 10px 50px 30px 50px;
   padding: 30px;
-  width: 30%;
+  width: 25%;
   height: 400px;
   border: #fff solid 4px;
   cursor: pointer;
@@ -309,16 +312,15 @@ body {
 .btn3 {
   background-image: url(../images/Rectangle\ 8@2x\ -\ Copy.png);
   background-repeat: no-repeat;
-  width: 50%;
+  width: 216px;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 13px;
-  margin-top: 30px;
   position: absolute;
   bottom: 8%;
-  right: 10%;
+  right: 5%;
 }
 
 .offerbox a {
@@ -358,7 +360,6 @@ body {
 
 /* Prices Page Body */
 .pribody {
-  padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 200px;
   margin-top: 75px;
@@ -422,7 +423,7 @@ body {
 }
 
 /* Prices Page Bottom */
-.pribottom{
+.pribottom {
   height: 8vh;
   display: flex;
   justify-content: center;
@@ -447,4 +448,271 @@ body {
   background-color: blue;
   height: 15px;
   width: 15px;
+}
+
+/* Contact Page*/
+.contact {
+  margin-top: 130px;
+  text-align: center;
+}
+
+.newstitle {
+  font-weight: lighter;
+}
+
+.mailbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.contact h3 {
+  margin: auto;
+  color: blue;
+}
+
+.contact h1 {
+  margin-top: 10px;
+}
+
+.contact input {
+  background-color: rgb(248, 243, 243);
+  border: rgb(248, 243, 243);
+  border-radius: 7px;
+  padding: 15px 0;
+  padding-left: 30px;
+  padding-right: 300px;
+  margin-left: -60px;
+  outline: none;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 160px;
+  margin-left: 30px;
+}
+
+.subbtn {
+  background-image: url(../images/Rectangle\ 8@2x\ -\ Copy.png);
+  background-size: 160px 45px;
+  background-repeat: no-repeat;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.banner {
+  margin-top: 380px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.banner img {
+  height: 18px;
+  padding-left: 15px;
+}
+
+#img1 {
+  padding: 0;
+}
+
+.titlecol {
+  padding-bottom: 20px;
+}
+
+.row {
+  padding-left: 150px;
+  line-height: 30px;
+}
+
+#firstrow {
+  padding-left: 0;
+  text-align: center;
+  margin-left: -70px;
+}
+
+#firstrow h1 {
+  margin-top: 20px;
+}
+
+#secondrow {
+  padding-left: 200px;
+}
+
+.row .col img {
+  padding: 0;
+  padding-right: 6px;
+  height: 15px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px){
+  body {
+    background-size: 55vw, 2350px, 3150px;
+    background-position: top right, left -280px bottom -1085px,
+      left -1280px bottom -1550px;
+  }
+
+  /* First Page */
+  .firstpage {
+    height: auto;
+  }
+
+  .menu {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .fbody {
+    height: auto;
+    padding: 0px;
+  }
+
+  .sidebar {
+    height: auto;
+    padding-top: 80px;
+  }
+
+  .tb1 {
+    height: auto;
+    font-size: 2vw;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+
+  #sm {
+    font-size: 3vw;
+  }
+
+  #fb {
+    font-size: 3vw;
+    margin-top: -15px;
+  }
+
+  .fpic {
+    height: 25vh;
+    padding-right: 25px;
+  }
+
+  .fpic img {
+    height: 100%;
+  }
+
+  .mouse {
+    bottom: 0%;
+  }
+
+  /* Second Page */
+  .secondpage {
+    height: auto;
+  }
+
+  .lscon {
+    width: 30vw;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+
+  .rscon {
+    height: auto;
+    padding: 0px;
+    padding-left: 30px;
+  }
+
+  .rscon p {
+    font-size: 2vw;
+  }
+
+  #rsh1 {
+    font-size: 4vw;
+  }
+
+  .tserhead {
+    padding-left: 15px;
+  }
+
+  #tserp1 {
+    font-size: 3vw;
+  }
+
+  #tserh1 {
+    font-size: 5vw;
+  }
+
+  .serbody {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+  }
+
+  .sercon {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .offerbox {
+    height: 425px;
+  }
+
+  .offerbox img {
+    width: 30%;
+  }
+
+  .offerbox h2 {
+    font-size: 3vw;
+  }
+
+  .offerbox p {
+    font-size: 2vw;
+    margin-top: 10px;
+  }
+
+  /* Prices Page */
+  .pricespage {
+    height: auto;
+  }
+
+  /* Prices Page Body */
+  .pribody {
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Pricebox */
+  .pribox {
+    margin-top: 100px;
+    height: 400px;
+  }
+
+  .btn4 {
+    left: 15%;
+  }
+
+  /* Contact Page */
+  .contact {
+    height: auto;
+  }
+
+  .banner {
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+  }
+
+  .row {
+    padding: 13px;
+  }
+
+  #secondrow {
+    padding-left: 13px;
+  }
 }
