@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 50%;
+  color: #454a56;
 }
 
 /* First Page */
@@ -190,7 +191,7 @@ body {
 
 /* Left Second Container */
 .lscon {
-  width: 75vw;
+  width: 40vw;
   height: 75vh;
   padding-left: 75px;
 }
@@ -202,9 +203,9 @@ body {
 
 /* Right Second Container */
 .rscon {
-  width: 75vw;
+  width: 40vw;
   height: 75vh;
-  padding: 200px 200px 0px 100px;
+  padding: 180px 200px 0px 100px;
 }
 
 .rscon p {
@@ -240,5 +241,97 @@ body {
 }
 
 .rscon a:hover {
+  opacity: 0.5;
+}
+
+/* Services Page*/
+.servicespage {
+  height: 90vh;
+  margin-top: 50px;
+}
+
+/* Top Services Page*/
+.tserhead {
+  width: 90%;
+  height: 10vh;
+  padding-left: 150px;
+}
+
+#tserp1 {
+  color: blue;
+  font-size: 35px;
+}
+
+#tserh1 {
+  font-size: 75px;
+  margin-top: -20px;
+}
+
+/* Services Page Body */
+.serbody {
+  height: 75vh;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 75px;
+}
+
+.sercon {
+  display: flex;
+}
+
+/* Offerbox */
+.offerbox {
+  margin: 10px 50px 30px 50px;
+  padding: 30px;
+  width: 30%;
+  height: 400px;
+  border: #fff solid 4px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
+  border-radius: 10%;
+  position: relative;
+}
+
+.offerbox img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.offerbox h2{ 
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.offerbox p{
+  margin-top: 45px;
+  font-size: 18px;
+}
+
+.btn3 {
+  background-image: url(../images/Rectangle\ 8@2x\ -\ Copy.png);
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 8%;
+  right: 10%;
+}
+
+.offerbox a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 216px;
+}
+
+.offerbox a:hover {
   opacity: 0.5;
 }
