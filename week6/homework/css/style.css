@@ -55,7 +55,6 @@ body {
   font-weight: bold;
 }
 
-/* Navbar links */
 .navbar a {
   color: white;
   text-align: center;
@@ -63,7 +62,6 @@ body {
   text-decoration: none;
 }
 
-/* Links - change color on hover */
 .navbar a:hover {
   text-decoration: underline;
 }
@@ -83,12 +81,10 @@ body {
   align-items: center;
 }
 
-/* Sidebar links */
 .sidebar a {
   text-decoration: none;
 }
 
-/* Links - change color on hover */
 .sidebar a:hover {
   opacity: 0.5;
 }
@@ -246,7 +242,6 @@ body {
 
 /* Services Page*/
 .servicespage {
-  height: 90vh;
   margin-top: 50px;
 }
 
@@ -269,9 +264,9 @@ body {
 
 /* Services Page Body */
 .serbody {
-  height: 75vh;
   padding-left: 100px;
   padding-right: 100px;
+  padding-bottom: 200px;
   margin-top: 75px;
 }
 
@@ -281,6 +276,7 @@ body {
 
 /* Offerbox */
 .offerbox {
+  background-color: #fff;
   margin: 10px 50px 30px 50px;
   padding: 30px;
   width: 30%;
@@ -300,12 +296,12 @@ body {
   margin-right: auto;
 }
 
-.offerbox h2{ 
+.offerbox h2 {
   font-size: 20px;
   margin-top: 30px;
 }
 
-.offerbox p{
+.offerbox p {
   margin-top: 45px;
   font-size: 18px;
 }
@@ -334,4 +330,121 @@ body {
 
 .offerbox a:hover {
   opacity: 0.5;
+}
+
+/* Prices Page */
+.pricespage {
+  height: 90vh;
+  background-color: #eceaff;
+}
+
+/* Prices Page Head */
+.prihead {
+  height: 10vh;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#prip1 {
+  color: blue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#prih1 {
+  font-size: 50px;
+  margin-top: -10px;
+}
+
+/* Prices Page Body */
+.pribody {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 200px;
+  margin-top: 75px;
+  display: flex;
+}
+
+/* Pricebox */
+.pribox {
+  background-color: #fff;
+  margin: 10px 50px 0px 50px;
+  padding: 30px;
+  width: 30%;
+  height: 350px;
+  border: #fff solid 4px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
+  border-radius: 10%;
+  position: relative;
+  text-align: center;
+}
+
+.pribox h2 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.pritext {
+  margin-top: 45px;
+  font-size: 18px;
+}
+
+.price {
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.btn4 {
+  background-image: url(../images/Rectangle\ 8@2x\ -\ Copy.png);
+  background-repeat: no-repeat;
+  width: 216px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  position: absolute;
+  left: 28%;
+}
+
+.pribox a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 216px;
+}
+
+.pribox a:hover {
+  opacity: 0.5;
+}
+
+/* Prices Page Bottom */
+.pribottom{
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  padding: 20px;
+}
+
+.dot a {
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot a:hover {
+  background-color: blue;
+  height: 15px;
+  width: 15px;
 }
