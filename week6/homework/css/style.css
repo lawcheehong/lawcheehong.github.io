@@ -553,7 +553,7 @@ body {
 }
 
 /* Responsive */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   body {
     background-size: 55vw, 2350px, 3150px;
     background-position: top right, left -280px bottom -1085px,
