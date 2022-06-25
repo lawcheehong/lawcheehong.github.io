@@ -4,13 +4,19 @@ body {
   color: #454a56;
 }
 
+/* Header 1 */
+.head1 {
+  font-size: 4vw;
+  margin-top: -3%;
+}
+
 /* Button 1 */
-.btn1{
+.btn1 {
   width: 12.5vw;
-	height: 5vh;
-  background-color: #281FB0;
-  background-image: linear-gradient(to right, #281FB0, #6156F9);
-  border-radius: 20px;
+  height: 5vh;
+  background-color: #281fb0;
+  background-image: linear-gradient(to right, #281fb0, #6156f9);
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +81,7 @@ body {
   display: flex;
   align-items: center;
   width: 95%;
-  height: 70vh;
+  height: 78vh;
   margin: auto;
 }
 
@@ -107,12 +113,8 @@ body {
 }
 
 #line img {
-  width: 70%;
-  height: auto;
-  display: flex;
-  justify-content: center;
+  width: 50%;
 }
-
 
 /* First Page Box */
 .fbox {
@@ -121,41 +123,107 @@ body {
   padding-left: 3%;
 }
 
-#sm{
+#sm {
   font-size: 3vw;
 }
 
-.head1{
-  font-size: 4vw;
-  margin-top: -5%;
-}
-
-.fbox p{
+.fbox p {
   font-size: 1vw;
-  margin-top: -1%;
+  margin-top: -1.5%;
 }
 
-.fbox a{
+.fbox a {
   color: white;
   text-decoration: none;
   font-size: 1vw;
 }
 
-.fbox a:hover{
+.fbox a:hover {
   opacity: 0.5;
 }
 
 /* First Page Pictures */
-.fpic{
-  width: 45vw;
-  height: 75%;
+.fpic {
+  width: 50vw;
+  height: 90%;
+  margin: auto;
 }
 
-.fpic img{
-  width: 90%;
+.fpic img {
+  width: 75%;
   height: auto;
 }
 
-.lscon img {
+/* First Page Bottom */
+.fbottom {
+  height: 7.5vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.mouse {
+  text-align: center;
+  border: white solid 0.5vw;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 1vw 1vw 0 rgba(0, 0, 0, 0.2), 0 1vw 1vw 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mouse img {
+  max-width: 50%;
+}
+
+/* Second Page */
+.secondpage {
+  width: 95vw;
+  margin: auto;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Left Second Container */
+.lscon {
   width: 50%;
+  height: 100%;
+}
+
+.lscon img {
+  width: 95%;
+}
+
+/* Right Second Container */
+.rscon {
+  background-image: url("../images/who\ we\ are\ background@2x.png");
+  background-repeat: no-repeat;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+}
+
+#rsp1 {
+  color: #281fb0;
+  font-size: 2vw;
+}
+
+.rscon p {
+  font-size: 1.5vw;
+  margin-top: -1%;
+}
+
+.rscon a {
+  color: white;
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+.rscon a:hover {
+  opacity: 0.5;
 }
