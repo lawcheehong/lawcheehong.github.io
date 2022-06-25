@@ -88,23 +88,23 @@ body {
   align-items: center;
 }
 
-.sidebar a {
-  text-decoration: none;
-}
+  .sidebar a {
+    text-decoration: none;
+  }
 
-.sidebar a:hover {
-  opacity: 0.5;
-}
+  .sidebar a:hover {
+    opacity: 0.5;
+  }
 
-.sidebar div {
-  padding: 20px;
-}
+  .sidebar div {
+    padding: 20px;
+  }
 
-.sidebar img {
-  width: 18px;
-  display: flex;
-  justify-content: center;
-}
+  .sidebar img {
+    width: 18px;
+    display: flex;
+    justify-content: center;
+  }
 
 #line img {
   width: 5px;

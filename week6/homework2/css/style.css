@@ -4,6 +4,18 @@ body {
   color: #454a56;
 }
 
+/* Button 1 */
+.btn1{
+  width: 12.5vw;
+	height: 5vh;
+  background-color: #281FB0;
+  background-image: linear-gradient(to right, #281FB0, #6156F9);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* First Page */
 .firstpage {
   background-image: url("../images/Bg\ Shape@2x.png");
@@ -59,18 +71,89 @@ body {
 }
 
 /* First Page Body */
-.fbody{ 
-    display: flex;
-    width: 95%;
-    height: 70vh;
-    margin: auto;
+.fbody {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 70vh;
+  margin: auto;
 }
 
 /* Sidebar */
+.sidebar {
+  width: 5vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  opacity: 0.5;
+}
+
+.sidebar div {
+  padding: 30%;
+}
+
+.sidebar img {
+  width: 1vw;
+  display: flex;
+  justify-content: center;
+}
+
+#line img {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
 
 
-.fpic img {
-  width: 50%;
+/* First Page Box */
+.fbox {
+  width: 40vw;
+  height: 75%;
+  padding-left: 3%;
+}
+
+#sm{
+  font-size: 3vw;
+}
+
+.head1{
+  font-size: 4vw;
+  margin-top: -5%;
+}
+
+.fbox p{
+  font-size: 1vw;
+  margin-top: -1%;
+}
+
+.fbox a{
+  color: white;
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+.fbox a:hover{
+  opacity: 0.5;
+}
+
+/* First Page Pictures */
+.fpic{
+  width: 45vw;
+  height: 75%;
+}
+
+.fpic img{
+  width: 90%;
+  height: auto;
 }
 
 .lscon img {
