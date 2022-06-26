@@ -493,6 +493,8 @@ body {
 .conbottom {
   width: 100%;
   margin-top: 5%;
+  background-image: url("../images/Bg\ Shape\ footer\ 1@2x-overlay.png");
+  background-size: cover;
   background-repeat: no-repeat;
   padding-top: 10%;
 }
