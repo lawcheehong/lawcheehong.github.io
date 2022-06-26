@@ -192,11 +192,13 @@ body {
 /* Left Second Container */
 .lscon {
   width: 50%;
-  height: 100%;
+  height: 90%;
+  margin: auto;
 }
 
 .lscon img {
-  width: 95%;
+  width: 75%;
+  margin: auto;
 }
 
 /* Right Second Container */
@@ -319,7 +321,6 @@ body {
 
 /* Prices Page */
 .pricespage {
-  height: 85vh;
   background-color: #eceaff;
   margin-top: 3%;
 }
@@ -740,10 +741,6 @@ body {
     height: 30vh;
   }
 
-  #row1 {
-    text-align: center;
-  }
-
   .row h1 {
     font-size: 5vw;
   }
@@ -842,20 +839,37 @@ body {
 
   /* Second Page */
   .secondpage {
-    height: 50vh;
+    height: 50%;
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+
+  /* Left Second Container */
+  .lscon {
+    width: 90%;
+    margin: auto;
+  }
+
+  .lscon img {
+    width: 90%;
   }
 
   /* Right Second Container */
+  .rscon {
+    margin-top: 3%;
+    width: 100%;
+  }
+
   #rsp1 {
-    font-size: 3vw;
+    font-size: 5vw;
   }
 
   .rscon p {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .rscon a {
-    font-size: 1.5vw;
+    font-size: 2.3vw;
   }
 
   /* Services Page */
@@ -868,93 +882,103 @@ body {
     margin-top: -1.5%;
   }
 
+  /* Services Page Container */
+  .sercon {
+    margin-top: 3%;
+  }
+
+  /* Offerbox */
+  .offerbox {
+    width: 45%;
+    height: 45vh;
+  }
   .offerbox img {
-    width: 30%;
+    width: 50%;
   }
 
   .offerbox h2 {
-    font-size: 2.3vw;
+    font-size: 4vw;
   }
 
   .offerbox p {
-    font-size: 1.8vw;
+    font-size: 3vw;
   }
 
   .btn2 {
-    width: 15vw;
-    height: 4vh;
+    width: 18vw;
+    height: 3vh;
   }
 
   .offerbox a {
-    font-size: 1.5vw;
+    font-size: 2.3vw;
   }
 
   /* Prices Page */
   .pricespage {
-    height: 75%;
+    height: auto;
   }
+
   #prip1 {
-    font-size: 3vw;
+    font-size: 5vw;
   }
 
   #prih1 {
-    font-size: 6vw;
-    margin-top: -3%;
+    font-size: 8vw;
+    margin-top: -5%;
   }
 
   /* Prices Body */
   .pribody {
-    height: 25vh;
     padding-top: 0%;
   }
 
   .pribox {
-    width: 25%;
-    height: 28vh;
+    width: 30%;
+    height: 35vh;
     margin-top: 0%;
     padding: 0%;
   }
 
   .pribox h2 {
-    font-size: 2.5vw;
+    font-size: 5vw;
   }
 
   .pritext {
-    font-size: 1.8vw;
+    font-size: 3vw;
   }
 
   .price {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .btn3 {
-    width: 15vw;
-    height: 4vh;
+    width: 18vw;
+    height: 3vh;
   }
 
   .pribox a {
-    font-size: 1.8vw;
+    font-size: 2.3vw;
   }
 
   /* Contact Page */
   /* Contact Header */
   .conhead h2 {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   .conhead p {
-    font-size: 4vw;
-    margin-top: -1.5%;
+    font-size: 5vw;
+    margin-top: -3%;
   }
 
   /* Mailbox */
   .mailbox {
-    width: 60%;
-    margin-top: 3%;
+    width: 75%;
+    margin-top: -2%;
   }
 
   .mailbox a {
-    font-size: 1.8vw;
+    font-size: 3vw;
   }
 
   /* Contact Page Bottom */
@@ -965,28 +989,20 @@ body {
 
   /* Footer */
   .footer {
-    font-size: 2.5vw;
+    font-size: 4vw;
     flex-wrap: wrap;
   }
 
   .row {
     width: 45%;
-    height: 30vh;
-  }
-
-  #row1 {
-    text-align: center;
+    height: 28vh;
   }
 
   .row h1 {
     font-size: 5vw;
-  }
+  } 
 
   .row h2 {
     font-size: 5vw;
-  }
-
-  .img1 {
-    width: 70%;
   }
 }
