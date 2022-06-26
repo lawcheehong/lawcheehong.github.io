@@ -544,6 +544,103 @@ body {
   padding-right: 3%;
 }
 
+/* Responsive For Small Screen*/
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  /* Button 1 */
+  .btn1 {
+    width: 13vw;
+    height: 4.5vh;
+  }
+
+  /* First Page */
+  /* Navigation Bar */
+  .navbar a {
+    font-size: 1.3vw;
+  }
+
+  /* First Page Box */
+  .fbox p {
+    font-size: 1.3vw;
+    margin-top: -1.5%;
+  }
+
+  .fbox a {
+    font-size: 1.3vw;
+  }
+
+  /* Second Page */
+  /* Right Second Container */
+  .rscon p {
+    font-size: 1.8vw;
+  }
+
+  .rscon a {
+    font-size: 1.5vw;
+  }
+
+  /* Services Page */
+  /* Offerbox */
+  .offerbox img {
+    width: 25%;
+  }
+
+  .offerbox h2 {
+    font-size: 2vw;
+  }
+
+  .offerbox p {
+    font-size: 1.5vw;
+  }
+
+  .offerbox a {
+    font-size: 1.3vw;
+  }
+
+  /* Prices Page */
+  /* Prices Page Head */
+  #prih1 {
+    margin-top: -2%;
+  }
+
+  /* Prices Body */
+  .pribody {
+    padding-top: 0;
+  }
+
+  /* Pricesbox */
+  .pribox {
+    margin-top: 0;
+  }
+
+  .pribox h2 {
+    font-size: 2vw;
+  }
+
+  .pritext {
+    font-size: 1.5vw;
+  }
+  
+  .price {
+    font-size: 2.3vw;
+  }
+
+  .pribox a {
+    font-size: 1.3vw;
+  }
+
+  /* Contact Page */
+  /* Mailbox */
+  .mailbox a {
+    font-size: 1.5vw;
+  }
+
+  /* Footer */
+  .footer {
+    width: 85%;
+    font-size: 1.5vw;
+  }
+}
+
 /* Responsive For iPads or Tablets*/
 @media screen and (max-width: 768px) and (min-width: 481px) {
   /* Header 1 */
@@ -757,7 +854,7 @@ body {
 }
 
 /* Responsive For Mobile*/
-@media screen and (max-width: 480px) and (min-width: 320px) {
+@media screen and (max-width: 480px) {
   /* Header 1 */
   .head1 {
     font-size: 5vw;
@@ -1002,7 +1099,7 @@ body {
 
   .row h1 {
     font-size: 5vw;
-  } 
+  }
 
   .row h2 {
     font-size: 5vw;
