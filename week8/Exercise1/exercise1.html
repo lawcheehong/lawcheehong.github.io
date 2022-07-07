@@ -10,14 +10,26 @@
         <legend>Farmer Registration Form</legend>
         <div class="name">
           <label for="fname">Name</label><br />
-          <input type="text" id="fname" name="fname" placeholder="First" />
-          <input type="text" id="lname" name="lname" placeholder="Last" />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="First"
+            required
+          />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Last"
+            required
+          />
         </div>
 
         <div class="emailphone">
           <div class="email">
             <label for="email">Email</label><br />
-            <input type="text" id="email" name="email" />
+            <input type="text" id="email" name="email" required />
           </div>
           <div class="phone">
             <label for="phone">Phone</label><br />
@@ -48,22 +60,42 @@
               id="streetaddress"
               name="streetaddress"
               placeholder="Street Address"
+              required
             />
             <input
               type="text"
               id="streetaddressline2"
               name="streetaddressline2"
               placeholder="Street Address Line 2"
+              required
             />
           </div>
 
           <div class="cityregion">
-            <input type="text" id="city" name="city" placeholder="City" />
-            <input type="text" id="region" name="region" placeholder="Region" />
+            <input
+              type="text"
+              id="city"
+              name="city"
+              placeholder="City"
+              required
+            />
+            <input
+              type="text"
+              id="region"
+              name="region"
+              placeholder="Region"
+              required
+            />
           </div>
 
           <div class="postalcountry">
-            <input type="text" id="postal" name="postal" placeholder="Postal" />
+            <input
+              type="text"
+              id="postal"
+              name="postal"
+              placeholder="Postal"
+              required
+            />
 
             <select id="country" name="country" class="form-control">
               <option value="Country">--Country--</option>
@@ -369,8 +401,11 @@
           </div>
         </div>
         <div class="send">
-          <a href="https://lawcheehong.github.io/week8/Exercise1/thankyou.html" target="_blank">
-            <input type="send" id="send" value="Send" />
+          <a
+            href="https://lawcheehong.github.io/week8/Exercise1/thankyou.html"
+            target="_blank"
+          >
+            <input type="submit" id="send" value="Send" />
           </a>
         </div>
       </fieldset>
