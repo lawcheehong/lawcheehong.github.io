@@ -1,0 +1,113 @@
+body {
+  display: flex;
+}
+
+form{
+    background-color: #DDF4EE;
+    margin: auto;
+}
+
+fieldset{
+    padding: 0px 20px;
+    margin: 0px -15px;
+}
+
+.name {
+  width: 90%;
+  margin: auto;
+}
+
+.name input {
+  width: 47.5%;
+  height: 30px;
+}
+
+.emailphone {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.email {
+  width: 50%;
+}
+
+.email input {
+  width: 95%;
+  height: 30px;
+}
+
+.phone {
+  width: 50%;
+}
+
+.phone input {
+  width: 95%;
+  height: 30px;
+}
+
+.gender {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.facon {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.sa input {
+  width: 99%;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.cityregion {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.cityregion input {
+  width: 49%;
+  height: 30px;
+}
+
+.postalcountry {
+  width: 100%;
+  display: flex;
+  margin-top: 5px;
+}
+
+.postalcountry input {
+  width: 50%;
+  height: 30px;
+}
+
+.postalcountry select {
+  width: 50%;
+  height: 35px;
+}
+
+.send {
+    width: fit-content;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.send input{
+  background-color: green;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+h2{
+    margin: auto;
+}
