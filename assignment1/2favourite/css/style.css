@@ -52,3 +52,160 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* Favorite Body */
+.favbody {
+  width: 70%;
+  margin: auto;
+}
+
+/* Favourite */
+.favtb {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.favtb h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.3vw;
+  color: #080808;
+}
+
+.favtb p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  letter-spacing: 0.01em;
+  color: #9c9c9c;
+  margin-top: -1.5%;
+}
+
+/* Section 1*/
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5%;
+  align-items: center;
+}
+
+/* Section 2*/
+.sec2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 1.5%;
+  align-items: center;
+}
+
+.textbox {
+  width: 49%;
+  height: 90%;
+}
+
+.textbox h2 {
+  font-size: 1.5vw;
+  font-family: "Raleway";
+  font-weight: 800;
+  color: #080808;
+  margin-top: 1%;
+}
+
+.textbox p {
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #9c9c9c;
+  line-height: 24px;
+}
+
+.tbimg {
+  width: 49%;
+}
+
+.tbimg img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Formula 1 */
+.tag1 {
+  width: fit-content;
+  padding: 1% 2%;
+  background: #fff6e9;
+  border-radius: 60px;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  color: #ffa217;
+}
+
+.favbtn1 {
+  width: fit-content;
+  height: 10%;
+  padding: 2% 5%;
+  background-color: #ffa217;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 8px 30px rgba(42, 176, 144, 0.1);
+}
+
+.sec1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: 700;
+}
+
+.sec1 a:hover {
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+/* Anime */
+.tag2 {
+  width: fit-content;
+  padding: 1% 2%;
+  background: #d0e6ff;
+  border-radius: 60px;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  color: #000aff;
+}
+
+.favbtn2 {
+  width: fit-content;
+  height: 10%;
+  padding: 2% 5%;
+  background-color: #000aff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 8px 30px rgba(0, 10, 255, 0.1);
+}
+
+.sec2 a {
+  color: white;
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: 700;
+}
+
+.sec2 a:hover {
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+/* Build PC */
+.tag3 {
+  width: fit-content;
+  padding: 1% 2%;
+  background: #e0fff8;
+  border-radius: 60px;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  color: #2ab090;
+}
