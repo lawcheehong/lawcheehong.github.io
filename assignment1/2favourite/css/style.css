@@ -168,6 +168,7 @@ body {
 }
 
 .textbox p {
+  font-size: 1vw;
   font-weight: 400;
   letter-spacing: 0.01em;
   color: #9c9c9c;
@@ -189,9 +190,9 @@ body {
   padding: 1% 2%;
   background: #fff6e9;
   border-radius: 60px;
-  font-family: "IBM Plex Mono";
   font-weight: 700;
   color: #ffa217;
+  font-size: 1vw;
 }
 
 .favbtn1 {
@@ -227,6 +228,7 @@ body {
   font-family: "IBM Plex Mono";
   font-weight: 700;
   color: #000aff;
+  font-size: 1vw;
 }
 
 .favbtn2 {
@@ -262,6 +264,7 @@ body {
   font-family: "IBM Plex Mono";
   font-weight: 700;
   color: #2ab090;
+  font-size: 1vw;
 }
 
 /* Responsive For Small Screen*/
@@ -270,16 +273,31 @@ body {
 
 /* Responsive For iPads or Tablets*/
 @media screen and (max-width: 768px) and (min-width: 481px) {
-  .menu {
-    flex-direction: column;
+  /* Menu Container */
+  .menucon {
+    width: 100%;
   }
+
+  /* Menu Logo */
+  .logo {
+    width: 95%;
+    text-align: center;
+  }
+
+  /* Top Navigation */
+  .topnav {
+    width: 5%;
+    display: flex;
+    align-items: center;
+  }
+
   .topnav a {
     display: none;
   }
+
   .menu a.icon {
     display: block;
     position: absolute;
-    right: 0;
   }
 
   .menu.responsive {
@@ -293,21 +311,124 @@ body {
   .menu.responsive a {
     display: block;
     text-align: left;
+  }
+
+  .menu a {
+    color: #ffffff;
+    font-size: 3vw;
+    text-decoration: none;
+  }
+
+  /* Overlay */
+  .overlay a {
+    font-size: 3vw;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    font-size: 8vw;
+  }
+
+  .overlay .closebtn {
+    font-size: 5vw;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 2vw;
+  }
+
+  /* Favorite Body */
+  .favbody {
+    width: 80%;
+  }
+
+  /* Favourite */
+  .favtb h1 {
+    font-size: 5vw;
+  }
+
+  .favtb p {
+    font-size: 1.5vw;
+  }
+
+  /* Section 1*/
+  .sec1 {
+    margin-top: 5%;
+  }
+
+  /* Section 2*/
+  .sec2 {
+    margin-top: 5%;
+  }
+
+  .textbox h2 {
+    font-size: 2.5vw;
+  }
+
+  .textbox p {
+    font-size: 2vw;
+  }
+
+  /* Formula 1 */
+  .tag1 {
+    font-size: 1.5vw;
+  }
+
+  .favbtn1 {
+    padding: 3% 8%;
+  }
+
+  .sec1 a {
+    font-size: 1.5vw;
+  }
+
+  /* Anime */
+  .tag2 {
+    font-size: 1.5vw;
+  }
+
+  .favbtn2 {
+    padding: 3% 8%;
+  }
+
+  .sec2 a {
+    font-size: 1.5vw;
+  }
+
+  /* Build PC */
+  .tag3 {
+    font-size: 1.5vw;
   }
 }
 
 /* Responsive For Mobile*/
 @media screen and (max-width: 480px) {
-  .menu {
-    flex-direction: column;
+  /* Menu Container */
+  .menucon {
+    width: 100%;
   }
+
+  /* Menu Logo */
+  .logo {
+    width: 95%;
+    text-align: center;
+  }
+
+  /* Top Navigation */
+  .topnav {
+    width: 5%;
+    display: flex;
+    align-items: center;
+  }
+
   .topnav a {
     display: none;
   }
+
   .menu a.icon {
     display: block;
     position: absolute;
-    right: 0;
   }
 
   .menu.responsive {
@@ -321,5 +442,108 @@ body {
   .menu.responsive a {
     display: block;
     text-align: left;
+  }
+
+  .menu a {
+    color: #ffffff;
+    font-size: 5vw;
+    text-decoration: none;
+  }
+
+  /* Overlay */
+  .overlay a {
+    font-size: 5vw;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    font-size: 13vw;
+  }
+
+  .overlay .closebtn {
+    font-size: 10vw;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 3vw;
+  }
+
+  /* Favorite Body */
+  .favbody {
+    width: 80%;
+  }
+
+  /* Favourite */
+  .favtb {
+    width: 80%;
+  }
+
+  .favtb h1 {
+    font-size: 5vw;
+  }
+
+  .favtb p {
+    font-size: 3vw;
+  }
+
+  /* Section 1*/
+  .sec1 {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+
+  /* Section 2*/
+  .sec2 {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+
+  .textbox {
+    width: 90%;
+  }
+
+  .textbox h2 {
+    font-size: 3vw;
+  }
+
+  .textbox p {
+    font-size: 3vw;
+  }
+
+  .tbimg {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  /* Formula 1 */
+  .tag1 {
+    font-size: 2.5vw;
+  }
+
+  .favbtn1 {
+    padding: 3% 8%;
+  }
+
+  .sec1 a {
+    font-size: 2vw;
+  }
+
+  /* Anime */
+  .tag2 {
+    font-size: 2.5vw;
+  }
+
+  .favbtn2 {
+    padding: 3% 8%;
+  }
+
+  .sec2 a {
+    font-size: 2vw;
+  }
+
+  /* Build PC */
+  .tag3 {
+    font-size: 2.5vw;
   }
 }
