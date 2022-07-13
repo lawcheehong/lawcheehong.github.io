@@ -235,16 +235,31 @@ body {
 
 /* Responsive For iPads or Tablets*/
 @media screen and (max-width: 768px) and (min-width: 481px) {
-  .menu {
-    flex-direction: column;
+  /* Menu Container */
+  .menucon {
+    width: 100%;
   }
+
+  /* Menu Logo */
+  .logo {
+    width: 95%;
+    text-align: center;
+  }
+
+  /* Top Navigation */
+  .topnav {
+    width: 5%;
+    display: flex;
+    align-items: center;
+  }
+
   .topnav a {
     display: none;
   }
+
   .menu a.icon {
     display: block;
     position: absolute;
-    right: 0;
   }
 
   .menu.responsive {
@@ -259,13 +274,93 @@ body {
     display: block;
     text-align: left;
   }
+
+  .menu a {
+    color: #ffffff;
+    font-size: 3vw;
+    text-decoration: none;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 2vw;
+  }
+
+  /* Home Body */
+  .homebody {
+    min-height: 87vh;
+    height: fit-content;
+    background-image: none;
+    background-color: #080808;
+  }
+
+  /* Home Container */
+  .homecon {
+    height: 75%;
+    flex-direction: column;
+  }
+
+  /* Home Text */
+  .ht {
+    width: 75%;
+  }
+
+  .ht h1 {
+    font-size: 5vw;
+  }
+
+  .ht p {
+    font-size: 2vw;
+  }
+
+  .homebtn {
+    width: 30vw;
+    height: 5vh;
+    margin: auto;
+  }
+
+  .ht a {
+    font-size: 1.8vw;
+  }
+
+  /* img1 */
+  .img1 {
+    width: 75%;
+    height: 98%;
+    margin-top: 5%;
+  }
+
+  /* Social Media */
+  .sm {
+    margin-top: 2vh;
+  }
+
+  .sm p {
+    font-size: 2vw;
+    text-align: center;
+  }
+
+  .media {
+    margin-top: 2vh;
+  }
+
+  .media a {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .mediabtn {
+    border: 1px solid #1b1b1b;
+  }
+
+  .media img {
+    width: 30%;
+    height: 30%;
+  }
 }
 
 /* Responsive For Mobile*/
 @media screen and (max-width: 480px) {
-  .menu {
-    flex-direction: column;
-  }
   .topnav a {
     display: none;
   }
