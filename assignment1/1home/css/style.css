@@ -61,24 +61,51 @@ body {
 
 /* Home Body */
 .homebody {
-  height: 87vh;
+  max-height: 87vh;
   background-image: url(../../images/f1-75.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Home Container */
 .homecon {
   width: 80%;
-  height: 45%;
+  height: 50%;
   padding-top: 5%;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
 
+/* Home Text */
+.ht {
+  width: 45%;
+  color: #ffffff;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0.3vw;
+}
+
+.ht h1{
+  font-family: raleway;
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+}
+
+.ht p{
+  margin-top: -3%;
+  font-size: 1.1vw;
+}
+
+/* img1 */
+.img1{
+  width: 50%;
+}
+
 /* Home Profile Image */
 .homecon img {
-  width: 75%;
+  width: 50%;
   border-radius: 50%;
   display: block;
   margin: auto;
