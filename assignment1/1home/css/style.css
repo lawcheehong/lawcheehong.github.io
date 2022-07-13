@@ -281,6 +281,20 @@ body {
     text-decoration: none;
   }
 
+  /* Overlay */
+  .overlay a {
+    font-size: 3vw;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    font-size: 8vw;
+  }
+
+  .overlay .closebtn {
+    font-size: 5vw;
+  }
+
   /* Footer */
   .footer {
     font-size: 2vw;
@@ -361,13 +375,31 @@ body {
 
 /* Responsive For Mobile*/
 @media screen and (max-width: 480px) {
+  /* Menu Container */
+  .menucon {
+    width: 100%;
+  }
+
+  /* Menu Logo */
+  .logo {
+    width: 95%;
+    text-align: center;
+  }
+
+  /* Top Navigation */
+  .topnav {
+    width: 5%;
+    display: flex;
+    align-items: center;
+  }
+
   .topnav a {
     display: none;
   }
+
   .menu a.icon {
     display: block;
     position: absolute;
-    right: 0;
   }
 
   .menu.responsive {
@@ -381,5 +413,111 @@ body {
   .menu.responsive a {
     display: block;
     text-align: left;
+  }
+
+  .menu a {
+    color: #ffffff;
+    font-size: 5vw;
+    text-decoration: none;
+  }
+
+  /* Overlay */
+  .overlay a {
+    font-size: 5vw;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    font-size: 13vw;
+  }
+
+  .overlay .closebtn {
+    font-size: 10vw;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 3vw;
+  }
+
+  /* Home Body */
+  .homebody {
+    min-height: 87vh;
+    height: fit-content;
+    background-image: none;
+    background-color: #080808;
+  }
+
+  /* Home Container */
+  .homecon {
+    flex-direction: column;
+  }
+
+  /* Home Text */
+  .ht {
+    width: 90%;
+  }
+
+  .ht h1 {
+    font-size: 9vw;
+  }
+
+  .ht p {
+    font-size: 5vw;
+  }
+
+  .homebtn {
+    width: 75vw;
+    height: 8vh;
+    margin: auto;
+  }
+
+  .ht a {
+    font-size: 5vw;
+  }
+
+  /* img1 */
+  .img1 {
+    width: 100%;
+    height: 100%;
+    margin-top: 8%;
+  }
+
+  /* Home Profile Image */
+  .homecon img {
+    width: 100%;
+  }
+
+  /* Social Media */
+  .sm {
+    height: fit-content;
+    margin-top: 3vh;
+  }
+
+  .sm p {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .media {
+    height: fit-content;
+    margin-top: 3vh;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+  }
+
+  .media a {
+    width: 50%;
+    height: fit-content;
+    margin-top: 2%;
+  }
+
+  .mediabtn {
+    border: 1px solid #1b1b1b;
+  }
+
+  .media img {
+    width: 30%;
+    height: 30%;
   }
 }
