@@ -27,6 +27,7 @@ body {
 
 /* Top Navigation */
 .topnav {
+  overflow: hidden;
   width: 60%;
   display: flex;
   justify-content: space-between;
@@ -42,6 +43,59 @@ body {
   color: #ff1801;
 }
 
+.topnav a.active {
+  background-color: #ff1801;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* Overlay */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+.overlay-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 3vw;
+  display: block;
+  transition: 0.1s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #ff1801;
+  font-size: 5vw;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  font-size: 2vw;
+}
+
 /* Footer */
 .footer {
   height: 5vh;
@@ -51,4 +105,64 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Responsive For Small Screen*/
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+}
+
+/* Responsive For iPads or Tablets*/
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .menu {
+    flex-direction: column;
+  }
+  .topnav a {
+    display: none;
+  }
+  .menu a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+
+  .menu.responsive {
+    position: relative;
+  }
+  .menu.responsive .icon {
+    position: absolute;
+    right: 5;
+    top: 0;
+  }
+  .menu.responsive a {
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Responsive For Mobile*/
+@media screen and (max-width: 480px) {
+  .menu {
+    flex-direction: column;
+  }
+  .topnav a {
+    display: none;
+  }
+  .menu a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+
+  .menu.responsive {
+    position: relative;
+  }
+  .menu.responsive .icon {
+    position: absolute;
+    right: 5;
+    top: 0;
+  }
+  .menu.responsive a {
+    display: block;
+    text-align: left;
+  }
 }

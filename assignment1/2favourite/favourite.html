@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/93578c133e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Menu -->
@@ -23,8 +27,37 @@
             >CH Website</a
           >
         </div>
+
+        <!-- Curtain -->
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <a href="https://lawcheehong.github.io/assignment1/1home/home.html"
+              >Home</a
+            >
+            <a
+              href="#https://lawcheehong.github.io/assignment1/2favourite/favourite.html"
+              >My Favourite</a
+            >
+            <a
+              href="https://lawcheehong.github.io/assignment1/3about/about.html"
+              >About Me</a
+            >
+            <a
+              href="https://lawcheehong.github.io/assignment1/4recent/recent.html"
+              >Recent Work</a
+            >
+            <a
+              href="https://lawcheehong.github.io/assignment1/5contact/contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+
         <!-- Top Navigation -->
-        <div class="topnav">
+        <div id="topnav" class="topnav">
           <a href="https://lawcheehong.github.io/assignment1/1home/home.html"
             >Home</a
           >
@@ -43,7 +76,20 @@
             href="https://lawcheehong.github.io/assignment1/5contact/contact.html"
             >Contact</a
           >
+          <a href="javascript:void(0);" class="icon" onclick="openNav()">
+            <i id="icon" class="fa-solid fa-bars"></i>
+          </a>
         </div>
+
+        <script>
+          function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+          }
+
+          function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+          }
+        </script>
       </div>
     </div>
     <!-- Favourite Body -->
