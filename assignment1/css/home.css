@@ -110,7 +110,7 @@ body {
 /* Home Body */
 .homebody {
   height: 87vh;
-  background-image: url(../../images/f1-75.jpg);
+  background-image: url(../images/f1-75.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
