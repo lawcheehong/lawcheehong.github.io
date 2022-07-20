@@ -110,7 +110,12 @@ body {
 /* Home Body */
 .homebody {
   height: 87vh;
-  background-image: url(../images/f1-75.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../images/f1-75.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -131,7 +136,6 @@ body {
   width: 45%;
   color: #ffffff;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.7);
   padding: 0.3vw;
 }
 
@@ -225,8 +229,8 @@ body {
 }
 
 .media img {
-  width: 20%;
-  height: 20%;
+  width: 15%;
+  height: 15%;
 }
 
 /* Responsive For Small Screen*/
