@@ -223,7 +223,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 5% 1%;
   border-radius: 5px;
 }
@@ -368,7 +368,7 @@ body {
   }
 
   .mediabtn {
-    border: 1px solid #1b1b1b;
+    border: 1px solid #9c9c9c;
   }
 
   .media img {
@@ -517,7 +517,7 @@ body {
   }
 
   .mediabtn {
-    border: 1px solid #1b1b1b;
+    border: 1px solid #9c9c9c;
   }
 
   .media img {
