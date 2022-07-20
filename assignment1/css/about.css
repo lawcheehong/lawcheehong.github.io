@@ -1,6 +1,7 @@
 body {
   margin: 0%;
   font-family: "IBM Plex Mono", sans-serif;
+  background-color: #080808;
 }
 
 /* Menu */
@@ -105,6 +106,81 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* About Body */
+.aboutbody {
+  min-height: 81.3vh;
+  background-color: #080808;
+  padding-top: 3%;
+  color: #ffffff;
+}
+
+/* About Header */
+.abouthead {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.abouthead h1 {
+  font-family: "Raleway";
+  font-size: 2.5vw;
+}
+
+.abouthead p {
+  font-size: 1.1vw;
+  margin-top: -1.5%;
+}
+
+/* Details Container */
+.details {
+  width: 85%;
+  height: 80%;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Box */
+.box {
+  width: 45%;
+  height: 20vh;
+  border: #9c9c9c solid 1.5px;
+  border-radius: 8px;
+  align-items: center;
+  margin: auto;
+  padding: 1.5%;
+  margin-top: 3%;
+  position: relative;
+}
+
+.box p {
+  font-size: 1vw;
+  line-height: 20px;
+}
+
+/* Title */
+.title {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  position: absolute;
+  bottom: 1%;
+}
+
+.title img {
+  width: 8%;
+  height: 8%;
+}
+
+.title p {
+  margin-left: 5%;
+  font-size: 1.3vw;
+  line-height: 20px;
+  font-family: "Raleway";
+  font-weight: bolder;
 }
 
 /* Responsive For Small Screen*/

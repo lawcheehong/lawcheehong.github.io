@@ -107,6 +107,76 @@ body {
   align-items: center;
 }
 
+/* Anime Body */
+.animebody {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 0.5%;
+}
+
+/* Logo */
+.logo {
+  width: 90%;
+  height: 20%;
+  margin: auto;
+}
+
+.logo img {
+  width: 20%;
+}
+
+/* Textbox 1 */
+.tb1 h3 {
+  font-size: 1.3vw;
+}
+
+.tb1 p {
+  font-size: 1vw;
+  color: #9c9c9c;
+  line-height: 30px;
+  margin-top: -1.5%;
+}
+
+/* Textbox 2 */
+.tb2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  width: 49%;
+}
+
+.text h3 {
+  font-size: 1.3vw;
+}
+
+.text p {
+  font-size: 1vw;
+  color: #9c9c9c;
+  line-height: 30px;
+  margin-top: -1.5%;
+}
+
+.animeimg {
+  width: 49%;
+  border-radius: 10px;
+}
+
+.animeimg img {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.tb3 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5%;
+}
 /* Responsive For Small Screen*/
 @media screen and (max-width: 1024px) and (min-width: 769px) {
 }

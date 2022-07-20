@@ -107,6 +107,86 @@ body {
   align-items: center;
 }
 
+/* F1 Body */
+.f1body {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 0.5%;
+}
+
+/* F1 Logo */
+.f1logo {
+  width: 90%;
+  height: 20%;
+  margin: auto;
+}
+
+.f1logo img {
+  width: 10%;
+}
+
+.f1logo p {
+  font-size: 1vw;
+  margin-top: -1.5%;
+  margin-left: 1%;
+  font-weight: bolder;
+}
+
+/* Textbox 1 */
+.tb1 {
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  width: 59%;
+}
+
+.text h3 {
+  font-size: 1.3vw;
+}
+
+.text p {
+  font-size: 1vw;
+  color: #9c9c9c;
+  line-height: 30px;
+  margin-top: -1.5%;
+}
+
+.fiaimg {
+  width: 39%;
+  border-radius: 5px;
+}
+
+.fiaimg img {
+  width: 100%;
+}
+
+/* Textbox 2 */
+.tb2 h3 {
+  font-size: 1.3vw;
+}
+
+.tb2 p {
+  font-size: 1vw;
+  color: #9c9c9c;
+  line-height: 30px;
+  margin-top: -1.5%;
+}
+
+/* F1 2022 */
+.f122img {
+  display: flex;
+  justify-content: center;
+}
+
+.f122img img {
+  width: 50%;
+  border-radius: 5px;
+}
+
 /* Responsive For Small Screen*/
 @media screen and (max-width: 1024px) and (min-width: 769px) {
 }
