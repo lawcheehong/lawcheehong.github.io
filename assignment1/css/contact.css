@@ -1,6 +1,7 @@
 body {
   margin: 0%;
   font-family: "IBM Plex Mono", sans-serif;
+  background-color: #080808;
 }
 
 /* Menu */
@@ -105,6 +106,104 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Contact Body */
+.contbody {
+  width: 50%;
+  height: 83vh;
+  margin: auto;
+  color: #ffffff;
+}
+
+/* Contact Header */
+.conthead {
+  text-align: center;
+}
+
+.conthead h1 {
+  font-size: 3vw;
+}
+
+.conthead p {
+  font-size: 1vw;
+  margin-top: -1%;
+  line-height: 30px;
+}
+
+.conthead a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 1px;
+}
+
+.conthead a:hover {
+  color: #ff1801;
+  text-decoration: underline;
+}
+
+/* Form */
+
+.email {
+  width: 70%;
+  margin: auto;
+  font-size: 1vw;
+}
+
+.email input {
+  width: 100%;
+  height: 50px;
+  margin-top: 1%;
+  font-size: 1vw;
+  padding-left: 1%;
+}
+
+.phone {
+  width: 70%;
+  margin: auto;
+  margin-top: 1%;
+  font-size: 1vw;
+}
+
+.phone input {
+  width: 100%;
+  height: 50px;
+  margin-top: 1%;
+  font-size: 1vw;
+  padding-left: 1%;
+}
+
+.message {
+  width: 70%;
+  margin: auto;
+  margin-top: 1%;
+  font-size: 1vw;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 1%;
+  font-size: 1vw;
+  padding-left: 1%;
+  resize: none;
+}
+
+.submit {
+  width: 71.5%;
+  margin: auto;
+  margin-top: 1%;
+  padding-left: 1%;
+}
+
+.submit input {
+  background-color: #3f8e00;
+  color: #ffffff;
+  border: #62ba1b solid 1px;
+  width: 100%;
+  height: 50px;
+  margin-top: 1%;
+  font-size: 1vw;
 }
 
 /* Responsive For Small Screen*/

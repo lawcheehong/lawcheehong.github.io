@@ -86,12 +86,14 @@
 
     <!-- Contact Body -->
     <div class="contbody">
+      <!-- Contact Header -->
       <div class="conthead">
         <h1>Contact</h1>
         <p>
           Address: <br />
           <a
             href="https://www.google.com/maps/place/208,+Jalan+Hijau+1,+Taman+Hijau,+43000+Kajang,+Selangor/@2.9800893,101.7879055,19z/data=!3m1!4b1!4m5!3m4!1s0x31cdcb8e4474158d:0xf4bdfd8b804edf24!8m2!3d2.980088!4d101.7884527"
+            target="_blank"
             >No 37-I, Jalan Hijau 1, Taman Hijau, 43000 Kajang, Selangor.</a
           ><br />Phone: <br /><a href="tel:+60178413186">+60178413186</a>
         </p>
@@ -100,6 +102,7 @@
       <form
         name="myForm"
         action="https://lawcheehong.github.io/week8/Exercise1/thankyou.html"
+        target="_blank"
       >
         <div class="email">
           <label for="email">Email</label><br />
@@ -121,18 +124,21 @@
             required
           />
         </div>
-        <label for="message">Message</label><br />
-        <textarea
-          id="message"
-          name="message"
-          placeholder="Enter your message"
-          required
-        ></textarea>
+        <div class="message">
+          <label for="message">Message</label><br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+        </div>
         <div class="submit">
           <input type="submit" id="submit" value="Submit" />
         </div>
       </form>
     </div>
+
     <!-- Footer -->
     <div class="footer">
       <p>Made by Chee Hong with Figma</p>
