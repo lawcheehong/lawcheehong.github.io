@@ -107,6 +107,83 @@ body {
   align-items: center;
 }
 
+/* Recent Body*/
+.recbody {
+  width: 80%;
+  margin: auto;
+}
+
+/* Recent Header */
+.rechead {
+  text-align: center;
+}
+
+.rechead h1 {
+  font-family: "Raleway";
+  font-size: 2vw;
+}
+
+.rechead p {
+  font-size: 1vw;
+  margin-top: -1.5%;
+  color: #9c9c9c;
+}
+
+/* Work Container */
+.work {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+/* Box */
+.box {
+  width: 29%;
+  height: 40vh;
+  margin: auto;
+  align-items: center;
+  padding: 1%;
+  margin: 3% 1%;
+  border: #ff1801 dashed 1px;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box h1 {
+  font-size: 1.3vw;
+}
+.box p {
+  font-size: 1vw;
+}
+
+.btn {
+  width: fit-content;
+  height: 8%;
+  padding: 2% 3%;
+  background-color: #3f8e00;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 8px 30px rgba(42, 176, 144, 0.1);
+}
+
+.box a {
+  color: white;
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.box a:hover {
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
 /* Responsive For Small Screen*/
 @media screen and (max-width: 1024px) and (min-width: 769px) {
 }
