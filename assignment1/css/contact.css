@@ -143,7 +143,6 @@ body {
 }
 
 /* Form */
-
 .email {
   width: 70%;
   margin: auto;
@@ -212,16 +211,31 @@ textarea {
 
 /* Responsive For iPads or Tablets*/
 @media screen and (max-width: 768px) and (min-width: 481px) {
-  .menu {
-    flex-direction: column;
+  /* Menu Container */
+  .menucon {
+    width: 100%;
   }
+
+  /* Menu Logo */
+  .logo {
+    width: 95%;
+    text-align: center;
+  }
+
+  /* Top Navigation */
+  .topnav {
+    width: 5%;
+    display: flex;
+    align-items: center;
+  }
+
   .topnav a {
     display: none;
   }
+
   .menu a.icon {
     display: block;
     position: absolute;
-    right: 0;
   }
 
   .menu.responsive {
@@ -235,26 +249,112 @@ textarea {
   .menu.responsive a {
     display: block;
     text-align: left;
+  }
+
+  .menu a {
+    color: #ffffff;
+    font-size: 3vw;
+    text-decoration: none;
+  }
+
+  /* Overlay */
+  .overlay a {
+    font-size: 3vw;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    font-size: 8vw;
+  }
+
+  .overlay .closebtn {
+    font-size: 5vw;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 2vw;
+  }
+
+  /* Contact Body */
+  .contbody {
+    width: 90%;
+    height: 85vh;
+  }
+
+  /* Contact Header */
+  .conthead h1 {
+    font-size: 5vw;
+  }
+
+  .conthead p {
+    font-size: 1.5vw;
+    line-height: 20px;
+  }
+
+  /* Form */
+  .email {
+    font-size: 1.5vw;
+  }
+
+  .email input {
+    font-size: 1.5vw;
+  }
+
+  .phone {
+    font-size: 1.5vw;
+  }
+
+  .phone input {
+    font-size: 1.5vw;
+  }
+
+  .message {
+    font-size: 1.5vw;
+  }
+
+  textarea {
+    font-size: 1.5vw;
+  }
+
+  .submit input {
+    font-size: 1.5vw;
   }
 }
 
 /* Responsive For Mobile*/
 @media screen and (max-width: 480px) {
-  .menu {
-    flex-direction: column;
+  /* Menu Container */
+  .menucon {
+    width: 100%;
   }
+
+  /* Menu Logo */
+  .logo {
+    width: 90%;
+    text-align: center;
+  }
+
+  /* Top Navigation */
+  .topnav {
+    width: 10%;
+    display: flex;
+    align-items: center;
+  }
+
   .topnav a {
     display: none;
   }
+
   .menu a.icon {
     display: block;
     position: absolute;
-    right: 0;
   }
 
   .menu.responsive {
     position: relative;
   }
+
   .menu.responsive .icon {
     position: absolute;
     right: 5;
@@ -263,5 +363,75 @@ textarea {
   .menu.responsive a {
     display: block;
     text-align: left;
+  }
+
+  .menu a {
+    color: #ffffff;
+    font-size: 5vw;
+    text-decoration: none;
+  }
+
+  /* Overlay */
+  .overlay a {
+    font-size: 5vw;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    font-size: 13vw;
+  }
+
+  .overlay .closebtn {
+    font-size: 10vw;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 3vw;
+  }
+
+  /* Contact Body */
+  .contbody {
+    width: 90%;
+    height: 87vh;
+  }
+
+  /* Contact Header */
+  .conthead h1 {
+    font-size: 10vw;
+  }
+
+  .conthead p {
+    font-size: 4vw;
+    line-height: 20px;
+  }
+
+  /* Form */
+  .email {
+    font-size: 4vw;
+  }
+
+  .email input {
+    font-size: 4vw;
+  }
+
+  .phone {
+    font-size: 4vw;
+  }
+
+  .phone input {
+    font-size: 4vw;
+  }
+
+  .message {
+    font-size: 4vw;
+  }
+
+  textarea {
+    font-size: 4vw;
+  }
+
+  .submit input {
+    font-size: 4vw;
   }
 }

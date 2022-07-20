@@ -303,6 +303,7 @@ body {
   .menu.responsive {
     position: relative;
   }
+  
   .menu.responsive .icon {
     position: absolute;
     right: 5;
@@ -411,13 +412,13 @@ body {
 
   /* Menu Logo */
   .logo {
-    width: 95%;
+    width: 90%;
     text-align: center;
   }
 
   /* Top Navigation */
   .topnav {
-    width: 5%;
+    width: 10%;
     display: flex;
     align-items: center;
   }
@@ -434,6 +435,7 @@ body {
   .menu.responsive {
     position: relative;
   }
+
   .menu.responsive .icon {
     position: absolute;
     right: 5;

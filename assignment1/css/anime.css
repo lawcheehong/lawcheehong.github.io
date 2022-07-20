@@ -178,22 +178,38 @@ body {
   align-items: center;
   margin-top: 0.5%;
 }
+
 /* Responsive For Small Screen*/
 @media screen and (max-width: 1024px) and (min-width: 769px) {
 }
 
 /* Responsive For iPads or Tablets*/
 @media screen and (max-width: 768px) and (min-width: 481px) {
-  .menu {
-    flex-direction: column;
+  /* Menu Container */
+  .menucon {
+    width: 100%;
   }
+
+  /* Menu Logo */
+  .logo {
+    width: 95%;
+    text-align: center;
+  }
+
+  /* Top Navigation */
+  .topnav {
+    width: 5%;
+    display: flex;
+    align-items: center;
+  }
+
   .topnav a {
     display: none;
   }
+
   .menu a.icon {
     display: block;
     position: absolute;
-    right: 0;
   }
 
   .menu.responsive {
@@ -207,26 +223,101 @@ body {
   .menu.responsive a {
     display: block;
     text-align: left;
+  }
+
+  .menu a {
+    color: #ffffff;
+    font-size: 3vw;
+    text-decoration: none;
+  }
+
+  /* Overlay */
+  .overlay a {
+    font-size: 3vw;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    font-size: 8vw;
+  }
+
+  .overlay .closebtn {
+    font-size: 5vw;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 2vw;
+  }
+
+  /* Logo */
+  .animelogo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .animelogo img {
+    width: 50%;
+  }
+
+  /* Textbox 1 */
+  .tb1 h3 {
+    font-size: 1.5vw;
+  }
+
+  .tb1 p {
+    font-size: 1.5vw;
+    line-height: 20px;
+  }
+
+  /* Textbox 2 */
+  .text h3 {
+    font-size: 1.5vw;
+  }
+
+  .text p {
+    font-size: 1.3vw;
+    line-height: 20px;
+  }
+
+  .animeimg img {
+    height: 100%;
   }
 }
 
 /* Responsive For Mobile*/
 @media screen and (max-width: 480px) {
-  .menu {
-    flex-direction: column;
+  /* Menu Container */
+  .menucon {
+    width: 100%;
   }
+
+  /* Menu Logo */
+  .logo {
+    width: 90%;
+    text-align: center;
+  }
+
+  /* Top Navigation */
+  .topnav {
+    width: 10%;
+    display: flex;
+    align-items: center;
+  }
+
   .topnav a {
     display: none;
   }
+
   .menu a.icon {
     display: block;
     position: absolute;
-    right: 0;
   }
 
   .menu.responsive {
     position: relative;
   }
+
   .menu.responsive .icon {
     position: absolute;
     right: 5;
@@ -235,5 +326,80 @@ body {
   .menu.responsive a {
     display: block;
     text-align: left;
+  }
+
+  .menu a {
+    color: #ffffff;
+    font-size: 5vw;
+    text-decoration: none;
+  }
+
+  /* Overlay */
+  .overlay a {
+    font-size: 5vw;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    font-size: 13vw;
+  }
+
+  .overlay .closebtn {
+    font-size: 10vw;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 3vw;
+  }
+
+  /* Logo */
+  .animelogo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .animelogo img {
+    width: 75%;
+  }
+
+  /* Textbox 1 */
+  .tb1 h3 {
+    font-size: 2vw;
+  }
+
+  .tb1 p {
+    font-size: 2vw;
+    line-height: 10px;
+  }
+
+  /* Textbox 2 */
+  .tb2 {
+    flex-direction: column;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .text h3 {
+    font-size: 2vw;
+  }
+
+  .text p {
+    font-size: 2vw;
+    line-height: 10px;
+  }
+
+  .animeimg {
+    width: 100%;
+  }
+
+  .animeimg img {
+    height: 100%;
+  }
+
+  .tb3 {
+    flex-direction: column;
   }
 }

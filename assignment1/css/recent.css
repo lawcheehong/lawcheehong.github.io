@@ -156,6 +156,7 @@ body {
 .box h1 {
   font-size: 1.3vw;
 }
+
 .box p {
   font-size: 1vw;
 }
@@ -190,21 +191,37 @@ body {
 
 /* Responsive For iPads or Tablets*/
 @media screen and (max-width: 768px) and (min-width: 481px) {
-  .menu {
-    flex-direction: column;
+  /* Menu Container */
+  .menucon {
+    width: 100%;
   }
+
+  /* Menu Logo */
+  .logo {
+    width: 95%;
+    text-align: center;
+  }
+
+  /* Top Navigation */
+  .topnav {
+    width: 5%;
+    display: flex;
+    align-items: center;
+  }
+
   .topnav a {
     display: none;
   }
+
   .menu a.icon {
     display: block;
     position: absolute;
-    right: 0;
   }
 
   .menu.responsive {
     position: relative;
   }
+
   .menu.responsive .icon {
     position: absolute;
     right: 5;
@@ -213,33 +230,187 @@ body {
   .menu.responsive a {
     display: block;
     text-align: left;
+  }
+
+  .menu a {
+    color: #ffffff;
+    font-size: 3vw;
+    text-decoration: none;
+  }
+
+  /* Overlay */
+  .overlay a {
+    font-size: 3vw;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    font-size: 8vw;
+  }
+
+  .overlay .closebtn {
+    font-size: 5vw;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 2vw;
+  }
+
+  /* Recent Body*/
+  .recbody {
+    width: 90%;
+  }
+
+  /* Recent Header */
+  .rechead h1 {
+    font-size: 4vw;
+  }
+
+  .rechead p {
+    font-size: 1.5vw;
+  }
+
+  /* Work Container */
+  .work {
+    width: 90%;
+  }
+
+  /* Box */
+  .box {
+    width: 29%;
+    height: 25vh;
+  }
+
+  .box h1 {
+    font-size: 1.8vw;
+  }
+
+  .box p {
+    font-size: 1.3vw;
+  }
+
+  .btn {
+    height: 5%;
+    padding: 1.5% 2.5%;
+  }
+
+  .box a {
+    font-size: 1.3vw;
   }
 }
 
 /* Responsive For Mobile*/
 @media screen and (max-width: 480px) {
-  .menu {
-    flex-direction: column;
+  /* Menu Container */
+  .menucon {
+    width: 100%;
   }
+
+  /* Menu Logo */
+  .logo {
+    width: 90%;
+    text-align: center;
+  }
+
+  /* Top Navigation */
+  .topnav {
+    width: 10%;
+    display: flex;
+    align-items: center;
+  }
+
   .topnav a {
     display: none;
   }
+
   .menu a.icon {
     display: block;
     position: absolute;
-    right: 0;
   }
 
   .menu.responsive {
     position: relative;
   }
+
   .menu.responsive .icon {
     position: absolute;
     right: 5;
     top: 0;
   }
+
   .menu.responsive a {
     display: block;
     text-align: left;
+  }
+
+  .menu a {
+    color: #ffffff;
+    font-size: 5vw;
+    text-decoration: none;
+  }
+
+  /* Overlay */
+  .overlay a {
+    font-size: 5vw;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    font-size: 13vw;
+  }
+
+  .overlay .closebtn {
+    font-size: 10vw;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 3vw;
+  }
+
+  /* Recent Body*/
+  .recbody {
+    width: 90%;
+  }
+
+  /* Recent Header */
+  .rechead h1 {
+    font-size: 6vw;
+  }
+
+  .rechead p {
+    font-size: 3vw;
+    margin-top: -2%;
+  }
+
+  /* Work Container */
+  .work {
+    width: 90%;
+  }
+
+  /* Box */
+  .box {
+    width: 43%;
+    min-height: 15vh;
+    height: fit-content;
+  }
+
+  .box h1 {
+    font-size: 2.5vw;
+  }
+
+  .box p {
+    font-size: 2.3vw;
+    margin-top: -1%;
+  }
+
+  .btn {
+    height: 10%;
+    padding: 2% 3%;
+  }
+
+  .box a {
+    font-size: 1.8vw;
   }
 }
