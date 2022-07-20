@@ -115,14 +115,15 @@ body {
 }
 
 /* Logo */
-.logo {
+.animelogo {
   width: 90%;
   height: 20%;
   margin: auto;
 }
 
-.logo img {
+.animelogo img {
   width: 20%;
+  margin-top: 0.5%;
 }
 
 /* Textbox 1 */
