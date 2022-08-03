@@ -84,24 +84,27 @@
   margin-bottom: 0%;
 }
 
-.t5{
+.t5 {
   font-size: 1.3vw;
 }
 
 a {
-  font-size: 1.4vw;
+  font-size: 1.5vw;
 }
 
 p {
   font-size: 1.5vw;
 }
 
-.link{
+.link {
   font-size: 2vw;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
 }
 
-.link p{
+.link p {
   margin-bottom: 0%;
+  padding-bottom: 0%;
 }
 
 /* backtop button */
