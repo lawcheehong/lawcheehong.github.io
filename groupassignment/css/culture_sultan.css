@@ -54,41 +54,56 @@
   color: white !important;
 }
 
-.mimg{
-  width: 95%;  
+.mimg {
+  width: 95%;
+  display: flex;
+  justify-content: center;
 }
 
-.head{
+.head {
   font-weight: 600;
 }
 
-.t1{
+.t1 {
   font-size: 2vw;
 }
 
-.t2{
+.t2 {
   font-size: 1.5vw;
 }
 
-.t3{
+.t3 {
   font-weight: 700;
   font-size: 1.3rem;
   margin-bottom: -1%;
 }
 
-.t4{
+.t4 {
   font-weight: 700;
   font-size: 1.3rem;
   margin-bottom: 0%;
 }
 
-a{
+.t5{
   font-size: 1.3vw;
 }
 
-p{
+a {
+  font-size: 1.4vw;
+}
+
+p {
   font-size: 1.5vw;
 }
+
+.link{
+  font-size: 2vw;
+}
+
+.link p{
+  margin-bottom: 0%;
+}
+
 /* backtop button */
 
 #back-top {
