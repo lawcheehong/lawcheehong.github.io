@@ -1,57 +1,10 @@
-:root {
-  --bg-green: #064635;
-  --bg-mobile-dropdown-yellow: #f4eea9;
-  --bg-dropdown-yellow: rgba(244, 238, 169, 0.9);
-  --bg-dropdown-green: rgba(81, 146, 89, 0.3);
-  --bg-back-top: #ef6c58aa;
-  --bg-back-top-hover: #ef6c58;
-  --bg-line: #f3d1bf;
+#pin {
+  bottom: 5%;
+  left: 5%;
 }
 
-* {
-  font-family: "Edu SA Beginner", cursive;
-  font-weight: 500;
-}
-
-.scrolled-down {
-  transform: translateY(-100%);
-  transition: all 0.25s ease-in-out;
-}
-.scrolled-up {
-  transform: translateY(0);
-  transition: all 0.25s ease-in-out;
-}
-
-.nav-link.active {
-  font-weight: 700;
-}
-
-.nav-link:hover {
-  font-weight: 700;
-}
-
-.bg-top-nav-green {
-  background-color: var(--bg-green);
-}
-
-.bg-dropdown-yellow-green {
-  background-color: var(--bg-dropdown-yellow) !important;
-}
-
-.bg-mobile-dropdown-green-yellow {
-  background-color: var(--bg-green) !important;
-}
-
-.bg-dropdown-yellow-width {
-  width: 230px !important;
-}
-
-.fs-top-nav-vm {
-  font-size: 18px !important;
-}
-
-.text-light-lg {
-  color: white !important;
+#pin p {
+  margin-bottom: 0%;
 }
 
 .mimg {
@@ -74,13 +27,13 @@
 
 .t3 {
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.3vw;
   margin-bottom: -1%;
 }
 
 .t4 {
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.3vw;
   margin-bottom: 0%;
 }
 
@@ -107,130 +60,79 @@ p {
   padding-bottom: 0%;
 }
 
-/* backtop button */
-
-#back-top {
-  display: none;
-  position: fixed;
-  padding: 10px 10px;
-  background-color: var(--bg-back-top);
-  border-radius: 50%;
-  right: 10px;
-  bottom: 10px;
-  z-index: 1000;
-}
-
-#back-top:hover {
-  display: none;
-  position: fixed;
-  padding: 12px 12px;
-  background-color: var(--bg-back-top-hover);
-  border-radius: 50%;
-  right: 10px;
-  bottom: 10px;
-  animation: backtop-rotate 1.5s;
-  z-index: 1000;
-}
-
-#back-top.sticky {
-  display: block;
-}
-
-@keyframes backtop-rotate {
-  0% {
-    transform: rotate(0deg) translate3d(0, 0, 0);
+@media screen and (max-width: 768px) and (min-width: 577px) {
+  .head {
+    font-weight: 400;
   }
 
-  50% {
-    transform: rotate(390deg) translate3d(0, 0, 0);
+  .t1 {
+    font-size: 2.3vw;
   }
 
-  70% {
-    transform: rotate(330deg) translate3d(0, 0, 0);
+  .t2 {
+    font-size: 2vw;
   }
 
-  100% {
-    transform: rotate(360deg) translate3d(0, 0, 0);
+  .t3 {
+    font-size: 1.5vw;
+  }
+
+  .t4 {
+    font-size: 1.8vw;
+  }
+
+  .t5 {
+    font-size: 1.5vw;
+  }
+
+  a {
+    font-size: 1.8vw;
+  }
+
+  p {
+    font-size: 1.8vw;
+  }
+
+  .link {
+    font-size: 2.3vw;
   }
 }
 
-/* footer */
-footer {
-  background-image: url(../images/Rectanglefooter-round.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 80px;
-  padding-bottom: 70px;
-}
+@media screen and (max-width: 576px){
+  .head {
+    font-weight: 400;
+  }
 
-footer ul a {
-  text-decoration: none;
-  color: white;
-}
+  .t1 {
+    font-size: 2.8vw;
+  }
 
-footer ul a:hover li {
-  text-decoration: none;
-  font-weight: 700;
-  color: white;
-}
+  .t2 {
+    font-size: 2.5vw;
+  }
 
-footer a:hover img {
-  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.575));
-  filter: drop-shadow(0px 4px 4px rgb(0, 0, 0.575));
-}
+  .t3 {
+    font-size: 2vw;
+  }
 
-#line {
-  width: 70%;
-  height: 1px;
-  background-color: var(--bg-line);
-  bottom: 50px;
-}
+  .t4 {
+    font-size: 2.3vw;
+  }
 
-#west_malaysia {
-  left: 32vw;
-  bottom: 80px;
-  width: 15vw;
-}
+  .t5 {
+    font-size: 2vw;
+  }
 
-#east_malaysia {
-  left: 51vw;
-  bottom: 80px;
-  width: 20vw;
-}
+  a {
+    font-size: 2.3vw;
+  }
 
-@media screen and (max-width: 992px) {
-  footer {
-    padding-top: 0px;
+  p {
+    font-size: 2.3vw;
+  }
+
+  .link {
+    font-size: 2.8vw;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .bg-dropdown-yellow-green {
-    background-color: var(--bg-dropdown-green) !important;
-    margin-left: 20px !important;
-    max-width: 300px !important;
-  }
-
-  .bg-mobile-dropdown-green-yellow {
-    background-color: var(--bg-mobile-dropdown-yellow) !important;
-  }
-
-  .bg-dropdown-yellow-width {
-    width: 280px !important;
-  }
-
-  .text-dark-md {
-    color: black !important;
-  }
-
-  .text-dark-md:hover {
-    font-weight: 700 !important;
-  }
-
-  #line {
-    width: 85%;
-  }
-}
-
-@media screen and (max-width: 576px) {
-}

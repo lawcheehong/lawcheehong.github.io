@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Favicon-->
     <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/genaral.css" />
     <link rel="stylesheet" href="css/culture_sultan.css" />
     <!-- add your css file here for example -->
     <!-- <link rel="stylesheet" href="css/category_mountain.css"> -->
@@ -167,7 +168,7 @@
     </div>
 
     <!-- Slide -->
-    <div class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel slide position-relative" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/m1.jpg" class="d-block w-100" alt="..." />
@@ -186,6 +187,15 @@
               Sultan Salahuddin Abdul Aziz Mosque
             </h1>
           </div>
+        </div>
+        <div id="pin" class="position-absolute">
+          <a
+            class="text-decoration-none text-light d-flex align-items-center"
+            href="https://www.google.com/maps/place/Sultan+Salahuddin+Abdul+Aziz+Mosque/@3.0786225,101.5185297,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc527ec7366823:0xd59cd5f00940bc42!8m2!3d3.0786225!4d101.5207184"
+          >
+            <i class="fa-solid fa-location-dot d-flex align-items-center"></i>
+            <p class="ps-1">Sultan Salahuddin Abdul Aziz Mosque, Selangor</p>
+          </a>
         </div>
       </div>
     </div>
@@ -206,12 +216,12 @@
       </div>
 
       <h1 class="head pt-5">Attractions</h1>
-      <div class="container-fuild d-flex align-items-center">
-        <div class="col-6">
+      <div class="container-fuild d-flex align-items-center flex-wrap">
+        <div class="col-lg-6 col-md-12">
           <img class="mimg rounded" src="images/m4.jpg" />
         </div>
 
-        <div class="col-6 d-flex align-items-center">
+        <div class="col-lg-6 col-md-12 pt-md-3 d-flex align-items-center">
           <p class="t2">
             Capable of accommodating up to 24,000 worshipers at any one time,
             the mosque overlooks the International Islamic Arts Garden Complex
@@ -222,13 +232,13 @@
       </div>
 
       <div
-        class="container-fuild d-flex align-items-center flex-row-reverse pt-3"
+        class="container-fuild d-flex align-items-center flex-row-reverse pt-3 flex-wrap"
       >
-        <div class="col-6">
-          <img class="mimg rounded d-flex ms-3" src="images/m5.jpg" />
+        <div class="col-lg-6 col-md-12">
+          <img class="mimg rounded d-flex ms-lg-3" src="images/m5.jpg" />
         </div>
 
-        <div class="col-6 d-flex align-items-center">
+        <div class="col-lg-6 col-md-12 pt-md-3 d-flex align-items-center">
           <p class="t2">
             Masjid Sultan Salahuddin Abdul Aziz Shah features a combination of
             traditional Islamic, West Asian and Malay design elements.<br /><br />
@@ -309,7 +319,7 @@
 
       <h1 class="head pt-3">Nearby Food</h1>
       <div class="row mb-3">
-        <div class="col">
+        <div class="col-md-4 col-xs-12">
           <div class="card">
             <img src="images/mf1.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -347,7 +357,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-4 col-xs-12">
           <div class="card">
             <img src="images/mf2.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -389,7 +399,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-4 col-xs-12">
           <div class="card">
             <img src="images/mf3.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -480,11 +490,13 @@
         src="images/west_malaysia 1.png"
         id="west_malaysia"
         class="position-absolute d-none d-lg-block"
+        width="15%"
       />
       <img
         src="images/east_malaysia 2.png"
         id="east_malaysia"
         class="position-absolute d-none d-lg-block"
+        width="20%"
       />
       <div id="line" class="position-absolute"></div>
       <p class="position-absolute bottom-0 text-light">
