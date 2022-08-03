@@ -59,6 +59,16 @@
   color: white !important;
 }
 
+.dropdown-item.item-fw-bold{
+  font-weight: 500 !important;
+}
+
+.dropdown-item.active{
+  font-weight: 700 !important;
+  background-color: inherit !important;
+  color: black !important;
+}
+
 /* backtop button */
 
 #back-top {
