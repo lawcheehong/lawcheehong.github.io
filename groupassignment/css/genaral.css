@@ -8,6 +8,11 @@
   --bg-line: #f3d1bf;
 }
 
+.container-1920{
+  max-width: 1920px;
+  margin: auto;
+}
+
 * {
   font-family: "Edu SA Beginner", cursive;
   font-weight: 500;

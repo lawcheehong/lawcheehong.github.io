@@ -28,16 +28,10 @@
 .t3 {
   font-weight: 700;
   font-size: 1.3vw;
-  margin-bottom: -1%;
-}
-
-.t4 {
-  font-weight: 700;
-  font-size: 1.3vw;
   margin-bottom: 0%;
 }
 
-.t5 {
+.t4 {
   font-size: 1.3vw;
 }
 
@@ -74,14 +68,10 @@ p {
   }
 
   .t3 {
-    font-size: 1.5vw;
-  }
-
-  .t4 {
     font-size: 1.8vw;
   }
 
-  .t5 {
+  .t4 {
     font-size: 1.5vw;
   }
 
@@ -98,41 +88,36 @@ p {
   }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
   .head {
-    font-weight: 400;
+    font-weight: 500;
   }
 
   .t1 {
-    font-size: 2.8vw;
+    font-size: 5vw;
   }
 
   .t2 {
-    font-size: 2.5vw;
+    font-size: 4.5vw;
   }
 
   .t3 {
-    font-size: 2vw;
+    font-size: 4.3vw;
   }
 
   .t4 {
-    font-size: 2.3vw;
-  }
-
-  .t5 {
-    font-size: 2vw;
+    font-size: 4vw;
   }
 
   a {
-    font-size: 2.3vw;
+    font-size: 4.3vw;
   }
 
   p {
-    font-size: 2.3vw;
+    font-size: 4.3vw;
   }
 
   .link {
-    font-size: 2.8vw;
+    font-size: 4.8vw;
   }
 }
-
