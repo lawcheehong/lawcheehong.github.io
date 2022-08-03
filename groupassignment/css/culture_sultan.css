@@ -55,9 +55,40 @@
 }
 
 .mimg{
-  width: 100%;  
+  width: 95%;  
 }
 
+.head{
+  font-weight: 600;
+}
+
+.t1{
+  font-size: 2vw;
+}
+
+.t2{
+  font-size: 1.5vw;
+}
+
+.t3{
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: -1%;
+}
+
+.t4{
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 0%;
+}
+
+a{
+  font-size: 1.3vw;
+}
+
+p{
+  font-size: 1.5vw;
+}
 /* backtop button */
 
 #back-top {
